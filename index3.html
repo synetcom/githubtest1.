@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        #num1, #num2{
+            padding:20px;
+            color:red;
+            font-weight:800;
+            display:block;
+            text-align:center;
+        }
+        .btn{
+            display:block;
+            margin:0 auto !important;
+        }
+        #output{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="num1"  value="3">
+    <input type="text" id="num2" value="4">
+    <h1 id="output"></h1>
+    <button onclick="multiply()" class="btn center">Multiply</button>
+    <script src="calculator.js"></script>
+</body>
+</html>
